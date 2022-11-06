@@ -7,3 +7,5 @@ This repository contains the main codes that I used for the analysis of RNAseq d
 * `up_or_down_genes` this code does a simple logical test using a .tabular file from DESeq2 as input. The parameters used were fdr and log2fc
 
 * `sE_GO` this code uses the simplifyEnrichment library to perform a Gene Ontology Term Enrichment
+
+* `volcano_plot` this code generates a .pdf with the volcano plot for the up, down or not significant. It is also possible to add the label for the most differentially expressed genes (by default it adds to the top 10)
